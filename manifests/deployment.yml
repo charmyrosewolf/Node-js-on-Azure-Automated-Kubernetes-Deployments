@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: charmyrosewolfnodejsonazureautomatedkubernetesdepl 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: charmyrosewolfnodejsonazureautomatedkubernetesdepl
+  template:
+    metadata:
+      labels:
+        app: charmyrosewolfnodejsonazureautomatedkubernetesdepl 
+    spec:
+      containers:
+        - name: charmyrosewolfnodejsonazureautomatedkubernetesdepl 
+          image: charmynodejsonakscontainer.azurecr.io/charmyrosewolfnodejsonazureautomatedkubernetesdepl
+          ports:
+          - containerPort: 8080
