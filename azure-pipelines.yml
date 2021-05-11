@@ -17,7 +17,7 @@ variables:
   dockerfilePath: '**/main/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'charmynodejsonakscontainer8959-auth'
-  jobsRepository: 'instafluffnodejsonazuremulticontainerpods-jobs'
+  jobsRepository: 'charmyrosewolfnodejsonazureautomatedkubernetesdepl-jobs'
   jobsDockerfile: '**/jobs/Dockerfile'
 
   # Agent VM image name

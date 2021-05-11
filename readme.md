@@ -1,4 +1,4 @@
-# Code Tutorial by Instafluff
+# Code Tutorial
 
 In an effort to learn more about deploying node.js applications, I completed the following tutorial:
 
@@ -12,3 +12,4 @@ This tutorial was created by instafluff.
 - using async instead of promises
 
 # Setbacks
+- Getting access to Azure Devops Free Tier

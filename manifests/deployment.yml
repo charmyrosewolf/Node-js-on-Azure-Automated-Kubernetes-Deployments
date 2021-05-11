@@ -17,3 +17,7 @@ spec:
           image: charmynodejsonakscontainer.azurecr.io/charmyrosewolfnodejsonazureautomatedkubernetesdepl
           ports:
           - containerPort: 8080
+       - name: charmyrosewolfnodejsonazureautomatedkubernetesdepl-jobs
+         image: nodejsonakscontainer.azurecr.io/charmyrosewolfnodejsonazureautomatedkubernetesdepl-jobs
+         ports:
+         - containerPort: 8081
